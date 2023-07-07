@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Modeling, Simulation, and Optimization of Real Processes group</p>
+    <p>Modeling, Simulation, and Optimization of Real Processes group,</p>
     <p>Institute of Mathematics,</p>
     <p>TU Berlin, Germany</p>
 
