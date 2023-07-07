@@ -2,7 +2,6 @@ github_users:
   - shubhadityaburela
 
 github_repos:
-  - shubhadityaburela/OptimalControl_wildlandfire_model
   - shubhadityaburela/WildLandFireModel
   - shubhadityaburela/DL-ROM
   - shubhadityaburela/Dense-Hessian-Bracketing
