@@ -13,9 +13,9 @@ profile:
     <p>Institute of Mathematics,</p>
     <p>TU Berlin, Germany</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 Hello, I am Shubhaditya. I am a Ph.D. student working in the Institute of Mathematics at the Technical University of Berlin. I conduct research in the field of model order reduction of transport dominated problems using conventional and machine learning methods. My project is funded by the German Research Foundation (DFG) under the Research Training Group, Differential Equation- and Data-driven Models in Life Sciences and Fluid Dynamics [(DAEDALUS)](https://www.daedalus.berlin), RTG 2433.
