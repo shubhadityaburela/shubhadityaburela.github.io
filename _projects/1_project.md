@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
+description: Model order reduction of a wildland fire model with deep learning methods
 img: assets/img/12.jpg
 importance: 1
 category: work
