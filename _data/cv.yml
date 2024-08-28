@@ -6,11 +6,15 @@
     - name: Date of Birth
       value: 30th June 1994
     - name: Languages
-      value: English, German (A1)
+      value: English, German (A2)
 
 - title: Education
   type: time_table
   contents:
+    - title: PhD (Mathematics) (Ongoing..)
+      institution: TU Berlin, Berlin, Germany
+      year: 2025 (expected)
+
     - title: M.Sc (Simulation Sciences)
       institution: RWTH Aachen University, Aachen, Germany
       year: 2021
@@ -33,7 +37,7 @@
       institution: Research group for Modeling, Simulation, and Optimization of Real Processes, TU Berlin
       year: Oct 2021 - present
       description:
-        - I am currently working as a research associate at TU Berlin in the Institute of Fluid Mechanics and Technical Acoustics. I work on developing reduced order models for transport problems with sharp-moving fronts like shock waves and flame fronts. My work involves developing and programming intrusive and data-based methods (machine learning methods) for model reduction. Additionally, I also work on reactive flows and methods for developing model order reduction methods for such fluid flows.
+        - I am currently working as a research associate at TU Berlin in the Institute Mathematics. I work on developing reduced order models for transport problems with sharp-moving fronts like shock waves and flame fronts. My work involves developing and programming intrusive and data-based methods (machine learning methods) for model reduction. Additionally, I also work on the optimal control of reactive flows and methods for developing model order reduction methods for such fluid flows.
 #        - Description 2.
 #        - title: Description 3.
 #          contents:
@@ -91,6 +95,7 @@
     - title: Fluid mecahnics
     - title: Nonlinear optimization
     - title: Combinatorial optimization
+    - title: Optimal control
 #      items:
 #        - Description 1.
 #        - Description 2.
