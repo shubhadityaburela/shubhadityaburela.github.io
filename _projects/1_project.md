@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: sPOD-NN
 description: Model order reduction of a wildland fire model with deep learning methods
 img: assets/img/12.jpg
 importance: 1
