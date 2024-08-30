@@ -48,7 +48,11 @@ non-intrusive machine learning-based methods to predict the solution.
 
 By applying the sPOD to the wildfire model and predicting the solution with neural networks we get a significantly better reduced-order result with computational savings.
 
-A detailed study of the results is given in our paper \cite{BuKrRe23}.
+A detailed study of the results is given in our paper.
+## related publications
+<div class="publications">
+  {% bibliography -f papers -q @*[key=BuKrRe23]* %}
+</div>
 
 [//]: # (<div class="row">)
 
