@@ -48,7 +48,8 @@ non-intrusive machine learning-based methods to predict the solution.
 
 By applying the sPOD to the wildfire model and predicting the solution with neural networks we get a significantly better reduced-order result with computational savings.
 
-A detailed study of the results is given in our paper.
+A detailed description of this project is shown in <a href="https://www.tu.berlin/en/fgmso/research/projects/model-reduction-for-multiple-transported-fronts-with-topological-changes">my TU berlin page</a> 
+and a novel study of the results is given in our paper.
 ## related publications
 <div class="publications">
   {% bibliography -f papers -q @*[key=BuKrRe23]* %}
