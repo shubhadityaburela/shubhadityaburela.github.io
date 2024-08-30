@@ -2,23 +2,45 @@
 layout: page
 title: sPOD-NN
 description: Model order reduction of a wildland fire model with deep learning methods
-img: assets/img/12.jpg
+img: assets/img/Var40_Nonlinear.png
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+[//]: # (Every project has a beautiful feature showcase page.)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[//]: # (It's easy to include images in a flexible 3-column grid format.)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+[//]: # (Make your photos 1/3, 2/3, or full width.)
+
+[//]: # ()
+[//]: # (To give your project a background in the portfolio page, just add the img tag to the front matter like so:)
+
+[//]: # ()
+[//]: # (    ---)
+
+[//]: # (    layout: page)
+
+[//]: # (    title: project)
+
+[//]: # (    description: a project with a background image)
+
+[//]: # (    img: /assets/img/12.jpg)
+
+[//]: # (    ---)
+
+
+Since global warming has started wreaking havoc on our planet, scientists are actively trying to study its impacts on our environment.
+Forests are the one part of our ecosystem that are experiencing the most amount of damage due to the warming.
+Frequent wildfires have started to decimate the flora and fauna in many parts of the world and has a far-reaching consequence for life on our planet.
+
+To tackle such issues world governments are investing heavily in research to study the wildfire behaviour and come up with 
+mitigating steps to prevent further loss.
+
+This project deals with one such research topic where we predict the spread of the wildfires in a computationally efficient way by combining our knowledge of the 
+wildfire behaviour with the current advanced scientific methods like reduced order modelling and artificial intelligence.
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
