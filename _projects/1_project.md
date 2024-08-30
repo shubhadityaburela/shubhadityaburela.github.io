@@ -46,7 +46,9 @@ A recent method shifted proper orthogonal decomposition (sPOD), decomposes the h
 co-moving low-dimensional fields following which we can either use conventional model order reduction methods or purely 
 non-intrusive machine learning-based methods to predict the solution.
 
-By applying the sPOD to the wildfire model and predicting the solution with neural networks we get a significantly better reduced-order result with computational savings
+By applying the sPOD to the wildfire model and predicting the solution with neural networks we get a significantly better reduced-order result with computational savings.
+
+A detailed study of the results is given in our paper \cite{BuKrRe23}.
 
 [//]: # (<div class="row">)
 
@@ -75,17 +77,25 @@ By applying the sPOD to the wildfire model and predicting the solution with neur
 [//]: # (    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.)
 [//]: # (</div>)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Tnonlinear-mixed.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The top two plots show the temperature profiles at two different time-instances. The bottom two plots show the cross-sectional views of the profile at those time-instances with the prediction results for sPOD-NN, POD-NN, and sPOD-I procedures.
-</div>
+[//]: # (<div class="row">)
 
+[//]: # (    <div class="col-sm mt-3 mt-md-0">)
 
-More detailed analysis and the results can be found in our publication \cite{BuKrRe23}
+[//]: # (        {% include figure.html path="assets/img/Tnonlinear-mixed.png" title="example image" class="img-fluid rounded z-depth-1" %})
+
+[//]: # (    </div>)
+
+[//]: # (</div>)
+
+[//]: # (<div class="caption">)
+
+[//]: # (    The top two plots show the temperature profiles at two different time-instances. The bottom two plots show the cross-sectional views of the profile at those time-instances with the prediction results for sPOD-NN, POD-NN, and sPOD-I procedures.)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (More detailed analysis and the results can be found in our publication \cite{BuKrRe23})
 
 [//]: # (You can also put regular text between your rows of images.)
 
