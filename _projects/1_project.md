@@ -84,6 +84,9 @@ By applying the sPOD to the wildfire model and predicting the solution with neur
     The top two plots show the temperature profiles at two different time-instances. The bottom two plots show the cross-sectional views of the profile at those time-instances with the prediction results for sPOD-NN, POD-NN, and sPOD-I procedures.
 </div>
 
+
+More detailed analysis and the results can be found in our publication \cite{BuKrRe23}
+
 [//]: # (You can also put regular text between your rows of images.)
 
 [//]: # (Say you wanted to write a little bit about your project before you posted the rest of the images.)
