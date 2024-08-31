@@ -2,7 +2,7 @@
 layout: page
 title: NsPOD
 description: Automated transport separation with neural networks
-img: assets/img/3.jpg
+img: assets/img/NsPOD.png
 importance: 2
 category: work
 ---
