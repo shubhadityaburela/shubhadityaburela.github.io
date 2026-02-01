@@ -13,7 +13,7 @@
   contents:
     - title: PhD (Mathematics) (Ongoing..)
       institution: TU Berlin, Berlin, Germany
-      year: 2025 (expected)
+      year: June 2026 (Tentative)
 
     - title: M.Sc (Simulation Sciences)
       institution: RWTH Aachen University, Aachen, Germany
@@ -66,10 +66,10 @@
 #      institution: University of Zurich, Zurich, Switzerland
 #      year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Internships
   type: time_table
   contents:
-    - title: <a href="https://github.com/fellowship/promo-recommendation">promo-recommendation</a>
+    - title: <a href="https://www.launchpad.ai/blog/benefit-of-cohort-structure-in-promo-recommendation">promo-recommendation</a>
       year: Jul 2022 - Sep 2022
       description: We worked on developing a promo-recommendation model based on xg-boost that learns from the synthetically generated dataset containing the user responses for different promotional campaigns. Various tests were run with different parameters to conclude that the presence of a cohort structure in the user data results in better prediction accuracy. Moreover, a new clustering algorithm was developed to find out the inherent cohort structure in the data when it is not given.
 
@@ -90,12 +90,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Optimal control
     - title: Reduced order modeling
     - title: Machine learning
     - title: Fluid mecahnics
     - title: Nonlinear optimization
     - title: Combinatorial optimization
-    - title: Optimal control
 #      items:
 #        - Description 1.
 #        - Description 2.
@@ -107,6 +107,6 @@
 - title: Additional info
   type: list
   contents:
-    - <u>Programming languages:</u> FORTRAN, C++, C, Python, MATLAB, Pytorch.
-    - <u>Operating system:</u> Windows, MacOS.
+    - <u>Programming languages:</u> FORTRAN, C++, C, Python, MATLAB, Pytorch, Pandas.
+    - <u>Operating system:</u> Windows, MacOS, Linux.
     - <u>Document preparation tools:</u> LATEX, MS-word.
