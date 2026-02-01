@@ -13,7 +13,7 @@
   contents:
     - title: PhD (Mathematics) (Ongoing..)
       institution: TU Berlin, Berlin, Germany
-      year: June 2026 (Tentative)
+      year: June 2026
 
     - title: M.Sc (Simulation Sciences)
       institution: RWTH Aachen University, Aachen, Germany
@@ -37,7 +37,7 @@
       institution: Research group for Modeling, Simulation, and Optimization of Real Processes, TU Berlin
       year: Oct 2021 - present
       description:
-        - I am currently working as a research associate at TU Berlin in the Institute Mathematics. I work on developing reduced order models for transport problems with sharp-moving fronts like shock waves and flame fronts. My work involves developing and programming intrusive and data-based methods (machine learning methods) for model reduction. Additionally, I also work on the optimal control of reactive flows and methods for developing model order reduction methods for such fluid flows.
+        - I am currently working as a research associate at TU Berlin in the Institute Mathematics. I work on developing <b>reduced order models</b> for transport problems with sharp-moving fronts like shock waves and flame fronts. My work involves developing and programming intrusive and data-based methods (machine learning methods) for model reduction. Additionally, I also work on the optimal control of reactive flows and methods for developing model order reduction methods for such fluid flows.
 #        - Description 2.
 #        - title: Description 3.
 #          contents:
