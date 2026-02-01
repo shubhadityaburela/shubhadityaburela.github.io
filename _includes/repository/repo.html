@@ -20,7 +20,7 @@
 {% assign user = parts[0] %}
 {% assign repo = parts[1] %}
 <div class="repo">
-  <a href="https://github.com/{{ user }}/{{ repo | uri_escape }}">{{ user }}/{{ repo }}</a>
+  <a href="https://github.com/{{ user }}/{{ repo | uri_escape }}">{{ repo }}</a>
 </div>
 {% else %}
 <div class="repo">
