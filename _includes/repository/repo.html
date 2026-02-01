@@ -1,29 +1,29 @@
-<!--{% assign repo_url =  include.repository | split: '/' %}-->
+{% assign repo_url =  include.repository | split: '/' %}
 
-<!--{% if site.data.repositories.github_users contains repo_url.first %}-->
-<!--  {% assign show_owner = false %}-->
-<!--{% else %}-->
-<!--  {% assign show_owner = true %}-->
-<!--{% endif %}-->
-
-<!--<div class="repo p-2 text-center">-->
-<!--  <a href="https://github.com/{{ include.repository }}">-->
-<!--    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}">-->
-<!--    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}">-->
-<!--  </a>-->
-<!--</div>-->
-
-
-
-{% assign parts = include.repository | split:'/' %}
-{% if parts.size >= 2 %}
-{% assign user = parts[0] %}
-{% assign repo = parts[1] %}
-<div class="repo">
-  <a href="https://github.com/{{ user }}/{{ repo | uri_escape }}">{{ repo }}</a>
-</div>
+{% if site.data.repositories.github_users contains repo_url.first %}
+  {% assign show_owner = false %}
 {% else %}
-<div class="repo">
-  <a href="https://github.com/{{ include.repository | uri_escape }}">{{ include.repository }}</a>
-</div>
+  {% assign show_owner = true %}
 {% endif %}
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/{{ include.repository }}">
+    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}">
+    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}">
+  </a>
+</div>
+
+
+
+<!--{% assign parts = include.repository | split:'/' %}-->
+<!--{% if parts.size >= 2 %}-->
+<!--{% assign user = parts[0] %}-->
+<!--{% assign repo = parts[1] %}-->
+<!--<div class="repo">-->
+<!--  <a href="https://github.com/{{ user }}/{{ repo | uri_escape }}">{{ repo }}</a>-->
+<!--</div>-->
+<!--{% else %}-->
+<!--<div class="repo">-->
+<!--  <a href="https://github.com/{{ include.repository | uri_escape }}">{{ include.repository }}</a>-->
+<!--</div>-->
+<!--{% endif %}-->
