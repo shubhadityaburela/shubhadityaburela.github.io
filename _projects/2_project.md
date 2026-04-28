@@ -27,6 +27,15 @@ To address this issue, our approach estimates both the transport and co-moving f
 This is achieved by training two sub-networks dedicated to learning the transports and the co-moving fields, respectively.
 Applications to synthetic data and a wildland fire model illustrate the capabilities and efficiency of this neural sPOD approach,
 demonstrating its ability to separate the different fields effectively.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/NsPOD.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Tandem neural network architecture.
+</div>
+
 
 Following successfull application of the neural network strategy we were able to obtain the desired transport separation as shown below for a 1D wildland fire model
 <div class="row">
