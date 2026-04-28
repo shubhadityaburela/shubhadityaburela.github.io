@@ -27,6 +27,18 @@ By applying sPOD to the wildfire model, we extract the time amplitudes and the l
     The overview of the sPOD-NN methodology.
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
+            <source src="{{ '/assets/video/T.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    A video demonstrating the predictive capabilities of the sPOD-NN model.
+</div>
+
 A detailed description of this project is shown in <a href="https://www.tu.berlin/en/fgmso/research/projects/model-reduction-for-multiple-transported-fronts-with-topological-changes">my TU Berlin page</a> and a novel study of the results is given in our paper.
 
 ## Related Publications
