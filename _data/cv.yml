@@ -118,80 +118,80 @@
   type: map
   contents:
     - name: Full Name
-      [cite_start]value: Shubhaditya Burela [cite: 125]
+      value: Shubhaditya Burela
     - name: Date of Birth
       value: 30th June 1994
     - name: Languages
-      [cite_start]value: English (Fluent), German (B1) [cite: 180]
+      value: English (Fluent), German (B1)
 
 - title: Education
   type: time_table
   contents:
-    - [cite_start]title: PhD in Computational engineering [cite: 140]
-                    [cite_start]institution: TU Berlin, Berlin, Germany [cite: 144]
-                    [cite_start]year: Jun 2026 (Tentative) [cite: 145]
+    - title: PhD in Computational engineering
+      institution: TU Berlin, Berlin, Germany
+      year: Jun 2026 (Tentative)
 
-    - [cite_start]title: M.Sc in Simulation Sciences [cite: 141]
-                    [cite_start]institution: RWTH Aachen University, Aachen, Germany [cite: 141]
-                    [cite_start]year: Jun 2021 [cite: 146]
+    - title: M.Sc in Simulation Sciences
+      institution: RWTH Aachen University, Aachen, Germany
+      year: Jun 2021
 
-    - [cite_start]title: B.Tech in Mechanical Engineering [cite: 142]
-                    [cite_start]institution: National Institute of Technology, Durgapur, India [cite: 142]
-                    [cite_start]year: May 2016 [cite: 147]
+    - title: B.Tech in Mechanical Engineering
+      institution: National Institute of Technology, Durgapur, India
+      year: May 2016
 
 - title: Experience
   type: time_table
   contents:
-    - [cite_start]title: Research Associate & PhD Student [cite: 143]
-                    [cite_start]institution: TU Berlin [cite: 144]
-                    [cite_start]year: Oct 2021 - Present [cite: 148]
-                    description:
-                      - [cite_start]Developed and analyzed nonlinear Model Order Reduction (MOR) frameworks for complex reactive flows, including wildland fire propagation and published results in peer-reviewed journals. [cite: 149]
-                      - [cite_start]Formulated reduced-order optimal control problems for fluid dynamics applications by deploying adjoint-based optimization. [cite: 150]
-                      - [cite_start]Constructed custom numerical solvers in Python and C++, applying Finite Difference Methods (FDM) to efficiently solve complex PDEs for transport-dominated flows. [cite: 151]
-                      - [cite_start]Constructed custom neural network based optimization algorithm in collaboration with researchers from Aix-Marseille university for highly nonlinear and nonconvex optimization goals. [cite: 152]
-                      - [cite_start]Analyzed Rotating Detonation Combustion Engine (RDCE) test data by deploying ADMM equipped with nonlinear MOR to successfully separate transport phenomena and decouple highly nonlinear detonation wave interactions. [cite: 153]
+    - title: Research Associate & PhD Student
+      institution: TU Berlin
+      year: Oct 2021 - Present
+      description:
+        - Developed and analyzed nonlinear Model Order Reduction (MOR) frameworks for complex reactive flows, including wildland fire propagation and published results in peer-reviewed journals.
+        - Formulated reduced-order optimal control problems for fluid dynamics applications by deploying adjoint-based optimization.
+        - Constructed custom numerical solvers in Python and C++, applying Finite Difference Methods (FDM) to efficiently solve complex PDEs for transport-dominated flows.
+        - Constructed custom neural network based optimization algorithm in collaboration with researchers from Aix-Marseille university for highly nonlinear and nonconvex optimization goals.
+        - Analyzed Rotating Detonation Combustion Engine (RDCE) test data by deploying ADMM equipped with nonlinear MOR to successfully separate transport phenomena and decouple highly nonlinear detonation wave interactions.
 
-    - [cite_start]title: Undergraduate Research Assistant [cite: 162]
-                    [cite_start]institution: TME, RWTH Aachen [cite: 162]
-                    [cite_start]year: Jun 2019 - Jun 2021 [cite: 163]
-                    description:
-                      - [cite_start]Coded hydrodynamic bearing calculation routines in FORTRAN for multi-body simulation software (MSC Adams / Virtual Dynamics). [cite: 164]
-                      - [cite_start]Developed a Thermohydrodynamic (THD) model by implementing the Reynolds lubrication and energy equations to accurately calculate local oil film temperatures and kinematics. [cite: 165]
-                      - [cite_start]Executed Finite Element simulations to analyze turbocharger thrust bearing designs, utilizing both mass-conserving (cavitation) and non-mass-conserving approaches. [cite: 166]
-                      - [cite_start]Accelerated computational speed and software robustness by integrating sparse solver techniques into the simulation architecture. [cite: 167]
-                      - [cite_start]Validated simulation accuracy by successfully correlating computed hydrodynamic pressures and forces against physical friction measurements from the test bench. [cite: 168]
+    - title: Undergraduate Research Assistant
+      institution: TME, RWTH Aachen
+      year: Jun 2019 - Jun 2021
+      description:
+        - Coded hydrodynamic bearing calculation routines in FORTRAN for multi-body simulation software (MSC Adams / Virtual Dynamics).
+        - Developed a Thermohydrodynamic (THD) model by implementing the Reynolds lubrication and energy equations to accurately calculate local oil film temperatures and kinematics.
+        - Executed Finite Element simulations to analyze turbocharger thrust bearing designs, utilizing both mass-conserving (cavitation) and non-mass-conserving approaches.
+        - Accelerated computational speed and software robustness by integrating sparse solver techniques into the simulation architecture.
+        - Validated simulation accuracy by successfully correlating computed hydrodynamic pressures and forces against physical friction measurements from the test bench.
 
 - title: Internships
   type: time_table
   contents:
-    - [cite_start]title: <a href="https://www.launchpad.ai/blog/benefit-of-cohort-structure-in-promo-recommendation">Machine Learning Intern</a> [cite: 154]
-                    [cite_start]institution: Launchpad.ai [cite: 155]
-                    [cite_start]year: Jul 2022 - Sep 2022 [cite: 156]
-                    description:
-                      - [cite_start]Engineered a promotional recommendation model utilizing XGBoost, GBRT, Python, and PyTorch, optimizing performance through rigorous hyperparameter tuning on synthetic datasets. [cite: 157]
-                      - [cite_start]Developed a novel clustering algorithm to automatically extract hidden cohort structures, statistically proving their impact on maximizing prediction accuracy for user engagement. [cite: 158]
+    - title: <a href="https://www.launchpad.ai/blog/benefit-of-cohort-structure-in-promo-recommendation">Machine Learning Intern</a>
+      institution: Launchpad.ai
+      year: Jul 2022 - Sep 2022
+      description:
+        - Engineered a promotional recommendation model utilizing XGBoost, GBRT, Python, and PyTorch, optimizing performance through rigorous hyperparameter tuning on synthetic datasets.
+        - Developed a novel clustering algorithm to automatically extract hidden cohort structures, statistically proving their impact on maximizing prediction accuracy for user engagement.
 
-    - [cite_start]title: <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6129333235613696">Google Summer of Code (GSoC) Intern</a> [cite: 159]
-                    [cite_start]institution: MBDyn [cite: 160]
-                    [cite_start]year: Jun 2021 - Aug 2021 [cite: 160]
-                    description:
-                      - [cite_start]Architected a bi-directional software coupling to integrate the open-source MBDyn kinematic solver with a pre-compiled Unsteady Vortex Lattice Method (UVLM) library. [cite: 160]
-                      - [cite_start]Engineered synchronized, real-time data transfer between subsystems to seamlessly exchange kinematic data and aerodynamic forces at every time step. [cite: 161]
+    - title: <a href="https://summerofcode.withgoogle.com/archive/2021/projects/6129333235613696">Google Summer of Code (GSoC) Intern</a>
+      institution: MBDyn
+      year: Jun 2021 - Aug 2021
+      description:
+        - Architected a bi-directional software coupling to integrate the open-source MBDyn kinematic solver with a pre-compiled Unsteady Vortex Lattice Method (UVLM) library.
+        - Engineered synchronized, real-time data transfer between subsystems to seamlessly exchange kinematic data and aerodynamic forces at every time step.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - [cite_start]title: Model Order Reduction [cite: 179]
-    - [cite_start]title: Machine Learning & Neural Networks [cite: 178]
-    - [cite_start]title: Computational Fluid Dynamics & Reactive Flows [cite: 149]
-    - [cite_start]title: Nonlinear & Proximal Optimization [cite: 137, 179]
-    - [cite_start]title: Optimal Control [cite: 150]
+    - title: Model Order Reduction
+    - title: Machine Learning & Neural Networks
+    - title: Computational Fluid Dynamics & Reactive Flows
+    - title: Nonlinear & Proximal Optimization
+    - title: Optimal Control
 
 - title: Skills & Additional Info
   type: list
   contents:
-    - [cite_start]<u>Programming & ML:</u> Python, PyTorch, C++, FORTRAN, MATLAB, Pandas, XGBoost, Deep Neural Networks. [cite: 178]
-    - [cite_start]<u>Computational Math:</u> Model Order Reduction, ADMM, Proximal Methods, Finite Element/Difference Methods, PDEs. [cite: 179]
+    - <u>Programming & ML:</u> Python, PyTorch, C++, FORTRAN, MATLAB, Pandas, XGBoost, Deep Neural Networks.
+    - <u>Computational Math:</u> Model Order Reduction, ADMM, Proximal Methods, Finite Element/Difference Methods, PDEs.
     - <u>Operating systems:</u> Windows, MacOS, Linux.
     - <u>Document preparation tools:</u> LATEX, MS-Word.
