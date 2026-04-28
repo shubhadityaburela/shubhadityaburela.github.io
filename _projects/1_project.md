@@ -5,7 +5,6 @@ description: Model order reduction of a wildland fire model with deep learning m
 img: assets/img/Var40_Nonlinear.png
 importance: 1
 category: work
-mathjax: true
 ---
 
 
