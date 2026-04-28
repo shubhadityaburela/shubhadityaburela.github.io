@@ -44,7 +44,7 @@ Following successfull application of the neural network strategy we were able to
     </div>
 </div>
 <div class="caption">
-    Transport separation of two traveling waves.
+    Transport separation of two traveling waves and the ignition regime.
 </div>
 
 Detailed theoretical aspects behind the network and more examples are given in our paper
