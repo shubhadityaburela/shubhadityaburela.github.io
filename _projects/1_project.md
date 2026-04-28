@@ -18,6 +18,15 @@ However, to achieve true computational speed-ups, the reduced-order model must b
 
 By applying sPOD to the wildfire model, we extract the time amplitudes $\mathbf{a}_k(t;\mu)$ and the low-dimensional shifts $\bar{\mathbf{z}}_k(t;\mu)$, stacking them to form our training data $\mathbf{\hat{A}}$. We then deploy a purely non-intrusive machine learning method—the sPOD-NN—to learn the mapping $(t;\mu) \to \mathbf{\hat{a}}(t; \mu)$. Once the neural network predicts the amplitudes and shifts, the final wildfire state $\tilde{\mathbf{q}}_\mathrm{sPOD}(t; \mu)$ is rapidly reconstructed. This hybrid approach allows us to predict the solution with significantly better accuracy and massive computational savings compared to conventional methods.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sPOD_NN_Pipeline.png" title="sPOD-NN pipeline" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The overview of the sPOD-NN methodology.
+</div>
+
 A detailed description of this project is shown in <a href="https://www.tu.berlin/en/fgmso/research/projects/model-reduction-for-multiple-transported-fronts-with-topological-changes">my TU Berlin page</a> and a novel study of the results is given in our paper.
 
 ## Related Publications
